@@ -3,27 +3,27 @@ import Card from "../UI/Card";
 import MealItem from "./MealItem/MealItem";
 const DUMMY_MEALS = [
   {
-    id: "m1",
-    name: "Sushi",
-    description: "Finest fish and veggies",
+    id: 1,
+    name: "Fish",
+    description: "Rehu fish",
     price: 22.99,
   },
   {
-    id: "m2",
-    name: "Schnitzel",
-    description: "A german specialty",
+    id: 2,
+    name: "Paneer",
+    description: "Spacial paneer",
     price: 16.5,
   },
   {
-    id: "m3",
-    name: "Barbecue Burger",
-    description: "Indian, raw, meaty",
+    id: 3,
+    name: "Dal",
+    description: "Indian Dal",
     price: 12.99,
   },
   {
-    id: "m4",
+    id: 4,
     name: "Chicken",
-    description: "Indian, chicken",
+    description: "Indian chicken",
     price: 15.99,
   },
 ];
