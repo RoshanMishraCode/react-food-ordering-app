@@ -1,6 +1,6 @@
 import React from "react";
 
-const CartItem = ({ name, price, onRemove, onAdd, amount }) => {
+const CartItem = ({ name, price, onRemove, onAdd, amount, deleteItem }) => {
   return (
     <div className="d-flex justify-content-between bg-light px-2 align-items-center my-2 fw-bold">
       <div>
@@ -28,6 +28,13 @@ const CartItem = ({ name, price, onRemove, onAdd, amount }) => {
             className="btn btn-success shadow-none"
           >
             +
+          </button>
+          <button
+            onClick={deleteItem}
+            type="button"
+            className="btn btn-danger shadow-none ms-4"
+          >
+            X
           </button>
         </div>
       </div>
