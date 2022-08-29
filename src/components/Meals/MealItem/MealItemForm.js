@@ -21,7 +21,7 @@ const MealItemForm = (props) => {
   return (
     <form onSubmit={submitHandler}>
       <Input
-        label="Amount"
+        label="Quantity"
         ref={amountInputRef}
         input={{
           id: "amount",
