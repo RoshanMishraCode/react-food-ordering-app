@@ -1,8 +1,10 @@
 # React Food Ordering App
 
-![food-orderig-react-app](https://user-images.githubusercontent.com/91654227/187089982-8b7f2db9-ed2b-435f-8bdb-a69f830b4cf3.png)
+![food-ordering-app-scr](https://user-images.githubusercontent.com/91654227/187877707-dd1d6486-d20f-423f-8863-7304b8a58dd9.png)
 
 I have used useContext hook in this application.
+
+![food-ordering-app](https://user-images.githubusercontent.com/91654227/187877786-87fabaf8-7092-4c32-a322-a91add1b96d6.png)
 
 ## Available Scripts
 
